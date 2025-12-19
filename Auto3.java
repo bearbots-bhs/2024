@@ -159,4 +159,13 @@ public class Auto3 extends LinearOpMode {
         stopM();
     }
     
-    public void tim
+    public void time(double t) {
+        ElapsedTime clock = new ElapsedTime();
+        while (clock.seconds() < t) {
+            
+        }
+    }
+}
+
+
+// :D
