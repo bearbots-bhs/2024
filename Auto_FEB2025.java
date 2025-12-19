@@ -72,3 +72,10 @@ public class Auto_FEB2025 extends LinearOpMode {
     }
     
     public void strafeLeft() {
+        
+        backrightmotor.setPower(0.5);
+        backleftmotor.setPower(0.5);
+        frontrightmotor.setPower(0.5);
+        frontleftmotor.setPower(0.5);
+    }
+}
